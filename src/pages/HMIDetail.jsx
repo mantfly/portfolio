@@ -1,0 +1,27 @@
+import { Link } from "react-router-dom";
+
+export default function HMIDetail() {
+  return (
+    <div className="blackbg-fullscreen">
+      {/* 固定的返回按钮 */}
+      <Link to="/works" className="hmi-back-button-fixed">
+        Back
+      </Link>
+      
+      {/* 可滚动的图片区域 */}
+      <div className="hmi-scrollable-content">
+        <div className="hmi-grid-9">
+          <img src="/img/hmi/1.png" alt="HMI detail 1" />
+          <img src="/img/hmi/2.png" alt="HMI detail 2" />
+          <img src="/img/hmi/3.png" alt="HMI detail 3" />
+          <img src="/img/hmi/4.png" alt="HMI detail 4" />
+          <img src="/img/hmi/5.png" alt="HMI detail 5" />
+          <img src="/img/hmi/6.png" alt="HMI detail 6" />
+          <img src="/img/hmi/7.png" alt="HMI detail 7" />
+          <img src="/img/hmi/8.png" alt="HMI detail 8" />
+          <img src="/img/hmi/9.png" alt="HMI detail 9" />
+        </div>
+      </div>
+    </div>
+  );
+}
