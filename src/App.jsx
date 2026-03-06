@@ -64,20 +64,22 @@ export default function App() {
     <Routes>
       {/* 带 Layout 的路由组 */}
       <Route path="/" element={<Layout />}>
-        <Route index element={<Navigate replace to="/works" />} />
-        <Route path="works" element={<Works />} />
+        {/* 直接在首页渲染 Works，不再跳转 */}
+        <Route index element={<Works />} />
+        {/* 如果不需要  这个地址，可以删掉这一行 */}
+        {/* <Route path="works" element={<Works />} /> */}
         <Route path="about" element={<About />} />
         <Route path="fun" element={<Fun />} />
       </Route>
       
       {/* 普通作品详情页 - 使用通用组件 */}
-      <Route path="/works/sl" element={<WorkDetail />} />
-      <Route path="/works/hmi" element={<HMIDetail />} />
-      <Route path="/works/ai-accessibility" element={<AIToolDetail />} />
-      <Route path="/works/smart-home" element={<HomeDetail />} />
-      <Route path="/works/cloud-conference" element={<CloudDetail />} />
-      <Route path="/works/cloud-platform" element={<PlatformDetail />} />
-      <Route path="/works/accessible-transport" element={<SLDetail />} />
+      <Route path="/sl" element={<WorkDetail />} />
+      <Route path="/hmi" element={<HMIDetail />} />
+      <Route path="/ai-accessibility" element={<AIToolDetail />} />
+      <Route path="/smart-home" element={<HomeDetail />} />
+      <Route path="/cloud-conference" element={<CloudDetail />} />
+      <Route path="/cloud-platform" element={<PlatformDetail />} />
+      <Route path="/accessible-transport" element={<SLDetail />} />
       <Route path="/about/design-thinking" element={<WorkshopDesignThinking />} />
 
     </Routes>

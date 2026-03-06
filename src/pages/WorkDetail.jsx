@@ -8,7 +8,7 @@ export default function WorkDetail() {
   if (!project) {
     return (
       <div className="work-detail">
-        <Link to="/works" className="back-button">Back</Link>
+        <Link to="" className="back-button">Back</Link>
         <p>No project found</p>
       </div>
     );
@@ -16,7 +16,7 @@ export default function WorkDetail() {
 
   return (
     <article className="work-detail">
-      <Link to="/works" className="back-button">Back</Link>
+      <Link to="" className="back-button">Back</Link>
 
       {/* 头部信息：标题 + 公司/时间/角色 */}
       <div className="detail-header">

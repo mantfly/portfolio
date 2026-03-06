@@ -47,7 +47,7 @@ export default function Works() {
       <div className="image-grid">
         {projects.map((project) => (
           <Link
-            to={`/works/${project.id}`}
+            to={`/${project.id}`}
             key={project.id}
             className="image-card"
           >

@@ -4,7 +4,7 @@ export default function SLDetail() {
   return (
     <div className="sl-detail">
       {/* 返回按钮 */}
-      <Link to="/works" className="hmi-back-button-fixed-white">
+      <Link to="" className="hmi-back-button-fixed-white">
         Back
       </Link>
       

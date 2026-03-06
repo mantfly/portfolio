@@ -4,7 +4,7 @@ export default function HomeDetail() {
   return (
     <div className="whitebg-fullscreen">
       {/* 固定的返回按钮 */}
-      <Link to="/works" className="hmi-back-button-fixed">
+      <Link to="" className="hmi-back-button-fixed">
         Back
       </Link>
       

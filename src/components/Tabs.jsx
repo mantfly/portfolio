@@ -4,7 +4,7 @@ export default function Tabs() {
   return (
     <div className="hero-tabs">
       <NavLink 
-        to="/works" 
+        to="" 
         className={({ isActive }) => `tab ${isActive ? 'active' : ''}`}>
         Works
       </NavLink>
