@@ -45,7 +45,7 @@ function Layout() {
             </a>
 
             <a
-              href="/public/img/cv.pdf"
+              href="/img/cv.pdf"
               target="_blank"
               rel="noreferrer"
             >

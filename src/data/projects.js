@@ -15,7 +15,7 @@ export const projects = [
         },
         {
           type: "image",
-          src: "/public/img/sl/sl.png",
+          src: "/img/sl/sl.png",
         },
         {
           type: "text", 
@@ -23,7 +23,7 @@ export const projects = [
         },
         {
           type: "image",
-          src: "/public/img/sl/solutions.jpg",
+          src: "/img/sl/solutions.jpg",
           caption: "Key solutions overview"
         }
       ],
@@ -31,9 +31,9 @@ export const projects = [
       visualMatches: {
         title: "Key Findings",
         images: [
-          { src: "/public/img/sl/research-1.jpg", caption: "User interviews" },
-          { src: "/public/img/sl/research-2.jpg", caption: "Affinity diagram" },
-          { src: "/public/img/sl/research-3.jpg", caption: "Issues board" }
+          { src: "/img/sl/research-1.jpg", caption: "User interviews" },
+          { src: "/img/sl/research-2.jpg", caption: "Affinity diagram" },
+          { src: "/img/sl/research-3.jpg", caption: "Issues board" }
         ]
       },
       

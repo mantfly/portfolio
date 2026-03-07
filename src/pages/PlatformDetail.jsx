@@ -11,7 +11,7 @@ export default function PlatformDetail() {
       {/* 可滚动的图片区域 */}
       <div className="hmi-scrollable-content">
         <div className="hmi-grid-9">
-          <img src="/public/img/solution.png" alt="HMI detail 1" />
+          <img src="/img/solution.png" alt="HMI detail 1" />
 
         </div>
       </div>

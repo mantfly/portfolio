@@ -30,7 +30,7 @@ export default function SLDetail() {
             playsInline
             className="sl-background-video"
         >
-            <source src="/public/img/video/route.mp4" type="video/mp4" />
+            <source src="/img/video/route.mp4" type="video/mp4" />
         </video>
         </div>
 
@@ -41,10 +41,10 @@ export default function SLDetail() {
 
                                          
           <div className="sl-inline-image">
-            <img src="/public/img/sl/test.png" alt="User research findings" />
-            <img src="/public/img/sl/discussion.png" alt="User research findings" />
-            <img src="/public/img/sl/data.png" alt="User research findings" />
-            <img src="/public/img/sl/journey.png" alt="User research findings" />
+            <img src="/img/sl/test.png" alt="User research findings" />
+            <img src="/img/sl/discussion.png" alt="User research findings" />
+            <img src="/img/sl/data.png" alt="User research findings" />
+            <img src="/img/sl/journey.png" alt="User research findings" />
 
 
           </div>
@@ -76,7 +76,7 @@ export default function SLDetail() {
             <h3 className="sl-solution-title">Delay Information</h3>
             <p className="sl-solution-desc">Community-based disruption updates with real-time visual information and large high-contrast signs.</p>
             <div className="sl-inline-image-small">
-              <img src="/public/img/sl/screen.png" alt="Delay information concept" />
+              <img src="/img/sl/screen.png" alt="Delay information concept" />
             </div>
           </div>
 
@@ -85,7 +85,7 @@ export default function SLDetail() {
             <h3 className="sl-solution-title">Map Functionality</h3>
             <p className="sl-solution-desc">Real-time vehicle location, interactive station finder, customizable information layers, and alternative route suggestions with accessibility icons.</p>
             <div className="sl-inline-image-small">
-              <img src="/public/img/sl/map.png" alt="Map functionality concept" />
+              <img src="/img/sl/map.png" alt="Map functionality concept" />
             </div>
           </div>
 
@@ -94,7 +94,7 @@ export default function SLDetail() {
             <h3 className="sl-solution-title">Station Information</h3>
             <p className="sl-solution-desc">Real-time occupancy data, accessibility exit information, stroller seat availability, and elevator/lift status.</p>
             <div className="sl-inline-image-small">
-              <img src="/public/img/sl/sl.png" alt="Station information display" />
+              <img src="/img/sl/sl.png" alt="Station information display" />
             </div>
           </div>
 
@@ -103,7 +103,7 @@ export default function SLDetail() {
             <h3 className="sl-solution-title">Real-Time User Updates</h3>
             <p className="sl-solution-desc">Live ticker updated by passengers and Trafikverket, with verified system ensuring reliable information.</p>
             <div className="sl-inline-image-small">
-              <img src="/public/img/sl/realtime.png" alt="Real-time updates interface" />
+              <img src="/img/sl/realtime.png" alt="Real-time updates interface" />
             </div>
           </div>
         </section>

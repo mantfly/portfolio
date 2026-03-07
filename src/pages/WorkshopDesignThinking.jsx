@@ -11,9 +11,9 @@ export default function WorkshopDesignThinking() {
       {/* 可滚动的图片区域 */}
       <div className="hmi-scrollable-content">
         <div className="hmi-grid-9">
-          <img src="/public/img/workshop/workshop1.png" alt="HMI detail 1" />
-          <img src="/public/img/workshop/workshop2.png" alt="HMI detail 2" />
-          <img src="/public/img/workshop/workshop3.png" alt="HMI detail 3" />
+          <img src="/img/workshop/workshop1.png" alt="HMI detail 1" />
+          <img src="/img/workshop/workshop2.png" alt="HMI detail 2" />
+          <img src="/img/workshop/workshop3.png" alt="HMI detail 3" />
 
         </div>
       </div>

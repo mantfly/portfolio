@@ -124,7 +124,7 @@ export default function About() {
   
           <aside className="about-right">
             <div className="about-photo">
-              <img src="/public/img/portrait.jpg" alt="Chi Chen" />
+              <img src="/img/portrait.jpg" alt="Chi Chen" />
             </div>
           </aside>
   
